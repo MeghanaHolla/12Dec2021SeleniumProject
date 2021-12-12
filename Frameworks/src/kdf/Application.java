@@ -13,6 +13,8 @@ public class Application {
 	public void verifyInvalidLogin() throws IOException {
 		String[][] data = GenericMethods.getData("D:\\Sel14Nov\\TestData.xlsx", "Sheet2");
 		Methods mtd = new Methods();
+		//Making changes to code
+		
 		for(int i = 1;i<data.length;i++) {
 			switch(data[i][3]) {
 			case "openBrowser":
